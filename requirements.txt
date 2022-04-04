@@ -8,10 +8,6 @@ python-dotenv
 babel
 pydantic
 passlib
-PyJWT
-bcrypt
-pydantic[email]
-google-auth
 requests
 fastapi-mail==0.3.7
 aiofiles

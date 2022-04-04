@@ -1,0 +1,13 @@
+version: '3'
+services:
+  exos_locken_python:
+    container_name: 'qr_note'
+    restart: unless-stopped
+    build: .
+    command:
+        ./start.sh
+    volumes:
+        - .:/app
+    environment:
+      TZ: Europe/Moscow
+      SERVER_MODE: local

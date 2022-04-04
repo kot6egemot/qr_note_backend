@@ -6,6 +6,8 @@ production.env
 .env.stage
 .env.test
 sqllite.db
+*.pyc
+*.cpython-38.pyc
 
 migrations/versions/__pycache__/
 core/__pycache__/
